@@ -1,0 +1,137 @@
+html {
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-family: 'Fanwood Text', serif;
+  background-color: #000;
+}
+body {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Vollkorn', serif;
+}
+
+.hero {
+  background-image: url('https://res.cloudinary.com/dn0k1nlvu/image/upload/v1550506074/PortfolioJRC/fredy-martinez-348699-unsplash_xecvdg.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+.nav-logo {
+  text-transform: capitalize;
+  text-align: left;
+}
+
+.nav-logo h1 {
+  padding: 0 0 200px 20px;
+}
+.navbar ul {
+  list-style-type: none;
+  text-align: right;
+}
+.navbar li {
+  display: inline;
+  padding: 0 10px;
+  font-size: 1.4em;
+}
+.navbar li a {
+  color: white;
+  text-decoration: none;
+}
+
+.section-title {
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-size: 1.4em;
+}
+/* Column classes */
+.full-width {
+  width: 100%;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+.half-width {
+  display: inline-block;
+  width: 49%;
+  padding: 0;
+  margin: 0;
+}
+.quarter-width {
+  display: inline-block;
+  width: 24.5%;
+  padding: 0;
+  margin: 0;
+}
+
+.main-title {
+  font-size: 3.5em;
+}
+.sub-title {
+  font-size: 1.4em;
+}
+.scroll-text {
+  padding-top: 200px;
+  text-align: center;
+  font-size: 25px;
+  color: #d3b634;
+}
+.about-me {
+  background-color: #97b5e5;
+  padding: 20px 0 40px;
+}
+.my-work {
+  background-color: #8b889b;
+}
+.my-work p {
+  font-size: 1.4em;
+}
+
+.fav-text p {
+  font-size: 1.4em;
+}
+.fav-image {
+  width: 20%;
+}
+.news {
+  background-color: #97b5e5;
+}
+.news li {
+  font-size: 1.4em;
+}
+.contact {
+  background-color: #8b889b;
+}
+.contact li {
+  font-size: 1.4em;
+}
+
+.section-height {
+  height: 850px;
+}
+.section-auto-height {
+  height: auto;
+}
+.img-pad-right {
+  padding-right: 10px;
+}
+.section-pad {
+  padding: 15px;
+}
+.work-img {
+  width: 35%;
+}
+.work-desc {
+  font-size: 1.2em;
+}
+.pad-left {
+  padding-left: 10px;
+}
